@@ -15,3 +15,7 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+# Add Third-Party soft
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
